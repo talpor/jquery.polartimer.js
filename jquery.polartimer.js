@@ -1,3 +1,5 @@
+var $this = null; // Global var which needs to be declared to call methods with setTimeout
+
 (function($) {
 
   $.fn.polartimer = function(method) {
